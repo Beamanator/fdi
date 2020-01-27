@@ -6,6 +6,8 @@
 
 ### Environment Variables
 
+Note: find your sheets api key & client id on https://console.developers.google.com/
+
 -   REACT_APP_API_KEY: (follow [this guide](https://developers.google.com/sheets/api/quickstart/js#step_1_turn_on_the))
 -   REACT_APP_CLIENT_ID: (follow [this guide](https://developers.google.com/sheets/api/quickstart/js#step_1_turn_on_the))
 -   REACT_APP_PUB_SHEET_ID: (url to be inserted into `iframe` when embedding sheets into websites)
