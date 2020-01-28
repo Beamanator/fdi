@@ -28,14 +28,14 @@ Check out the other tabs on this site to see the the tournament
 Agenda and scores + rankings during the Pool-play stage and bracket
 stage. Additionally, find below more specific tournament details.
 
-![field layout/{"width":"50%","float":"right","paddingLeft":"10px"}](${FieldImage})
-
 1. **Fields**:
 
     - We have 4 natural grass fields (A,B. C and D) _as shown
-    in the picture to the right_. Please check the agenda and be
+    in the picture below_. Please check the agenda and be
     ready on your field **before each game starts**.
     - Field dimensions are (35 m x 100 m).
+
+![field layout/fieldImg](${FieldImage})
 
 2. **Games and Timing**:
 
@@ -92,8 +92,6 @@ stage. Additionally, find below more specific tournament details.
     There will be some cool awards and fun titles at the end of
     the tournament, **don't miss them**!
 
-![hand signals/{"width":"30%","float":"right","paddingLeft":"10px"}](${HandSignalsImage})
-
 4. **Logistics**:
 
     - **Bathrooms and showers**:
@@ -116,6 +114,8 @@ stage. Additionally, find below more specific tournament details.
         the field. If you arrive late, we will try to get yours to
         you throughout the tournament.
         - Feel free to play with them or use your own jerseys. 
+
+![hand signals/handSignalsImg](${HandSignalsImage})
 
 5. **Gender Ratio**:
 

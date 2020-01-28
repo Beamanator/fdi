@@ -10,23 +10,27 @@ import homeText from "./homeText";
 // material-ui
 import Typography from "@material-ui/core/Typography";
 
-const Image = ({ alt: config, src }) => {
-    const [alt, raw_settings] = config.split("/");
-    const style = JSON.parse(raw_settings);
+// styles
+import { makeStyles } from "@material-ui/styles";
+import styles from "./styles";
 
-    return <img alt={alt} style={{ ...style }} src={src} />;
+const Image = ({ alt: config, src }) => {
+    const classes = makeStyles(styles)();
+
+    const [alt, imgClass] = config.split("/");
+
+    return <img alt={alt} className={classes[imgClass]} src={src} />;
 };
 
 const Home = () => {
+    const classes = makeStyles(styles)();
+
     return (
         <>
             <img
                 alt="swift 2019"
                 src={SWIFTImage}
-                style={{
-                    marginBottom: "20px",
-                    maxWidth: "100%",
-                }}
+                className={classes.headerImg}
             />
             {/* Render same header style on all pages */}
             <Typography variant="h4">SWIFT 2020 Tournament Details</Typography>
