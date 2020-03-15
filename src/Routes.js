@@ -14,13 +14,19 @@ import NotFound from "./components/pages-public/notFound";
 
 const Routes = () => (
     <Switch>
+        {/* main welcome page */}
         <Route exact path="/welcome" component={Welcome} />
 
-        {/* event-routes */}
-        <Route exact path="/agenda" component={Agenda} />
-        <Route exact path="/bracket" component={Bracket} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/pool" component={PoolPlay} />
+        {/* swift-2019 event routes */}
+        <Route exact path="/swift-2019/agenda" component={Agenda} />
+        <Route exact path="/swift-2019/bracket" component={Bracket} />
+        <Route
+            exact
+            path={["/swift-2019", "/swift-2019/home"]}
+            component={Home}
+        />
+        <Route exact path="/swift-2019/pool" component={PoolPlay} />
+
         {/* 404 Not Found Page */}
         <Route component={NotFound} />
     </Switch>
