@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import BracketRound from "./bracketRound";
 import Header from "./header";
 import PoolRound from "./poolRound";
-import Spinner from "../../ui/Spinner";
+import Spinner from "../../../ui/Spinner";
 import TableLabel from "./tableLabel";
 
 // mui-components
@@ -19,8 +19,8 @@ import TableHead from "@material-ui/core/TableHead";
 import Typography from "@material-ui/core/Typography";
 
 // redux
-import * as actions from "../../../store/actions";
-import * as sheetGetConfigs from "../../../store/sheetGetConfigs";
+import * as actions from "../../../../store/actions";
+import * as sheetGetConfigs from "../../../../store/sheetGetConfigs";
 import { connect } from "react-redux";
 
 // styles

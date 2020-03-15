@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import sheetConfig from "../../../config/sheets";
+import sheetConfig from "../../../../config/sheets";
 
 // local components
 import Header from "./header";
 import Round from "./bracketRound";
-import Spinner from "../../ui/Spinner";
+import Spinner from "../../../ui/Spinner";
 import TableLabel from "./tableLabel";
 
 // mui-components
@@ -20,8 +20,8 @@ import TableHead from "@material-ui/core/TableHead";
 import Typography from "@material-ui/core/Typography";
 
 // redux
-import * as actions from "../../../store/actions";
-import * as sheetGetConfigs from "../../../store/sheetGetConfigs";
+import * as actions from "../../../../store/actions";
+import * as sheetGetConfigs from "../../../../store/sheetGetConfigs";
 import { connect } from "react-redux";
 
 // styles

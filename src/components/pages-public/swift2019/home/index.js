@@ -2,7 +2,7 @@ import React from "react";
 import Markdown from "react-markdown";
 
 // images
-import SWIFTImage from "../../../assets/SWIFT_2019_pic.jpeg";
+import SWIFTImage from "../../../../assets/SWIFT_2019_pic.jpeg";
 
 // markdown text
 import homeText from "./homeText";

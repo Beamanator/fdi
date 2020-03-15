@@ -6,8 +6,8 @@ import MUIDataTables from "mui-datatables";
 import Typography from "@material-ui/core/Typography";
 
 // redux
-import * as actions from "../../../store/actions";
-import * as sheetGetConfigs from "../../../store/sheetGetConfigs";
+import * as actions from "../../../../store/actions";
+import * as sheetGetConfigs from "../../../../store/sheetGetConfigs";
 import { connect } from "react-redux";
 
 // styles
