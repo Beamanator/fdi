@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Routes from "./Routes";
 
 // top-level components
+import NavDrawer from "./components/layout/navDrawer";
 import TopMenu from "./components/layout/topMenu";
 
 // @material-ui/core
@@ -13,6 +14,11 @@ import styles from "./styles";
 
 const App = () => {
     const classes = makeStyles(styles)();
+    const [mobileOpen, setMobileOpen] = useState(true);
+
+    const handleDrawerToggle = () => {
+        setMobileOpen(!mobileOpen);
+    };
 
     return (
         <div className={classes.root}>
@@ -20,14 +26,13 @@ const App = () => {
             <CssBaseline />
 
             {/* TopMenu */}
-            <TopMenu />
-            {/* <TopMenu handleDrawerToggle={handleDrawerToggle} /> */}
+            <TopMenu handleDrawerToggle={handleDrawerToggle} />
 
             {/* NavDrawer */}
-            {/* <NavDrawer
+            <NavDrawer
                 handleDrawerToggle={handleDrawerToggle}
                 mobileOpen={mobileOpen}
-            /> */}
+            />
 
             {/* Dialog table showing members (all or specific type) */}
             {/* <DialogMemberTable /> */}
