@@ -23,7 +23,7 @@ const NavDrawer = ({ handleDrawerToggle, mobileOpen }) => {
     // const currentPath = location.pathname;
 
     const drawer = (
-        <div>
+        <div onClick={handleDrawerToggle}>
             <div className={classes.logoBox}>
                 <img src={Logo} alt="Logo" width={"100%"} />
             </div>

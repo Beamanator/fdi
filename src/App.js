@@ -14,7 +14,7 @@ import styles from "./styles";
 
 const App = () => {
     const classes = makeStyles(styles)();
-    const [mobileOpen, setMobileOpen] = useState(true);
+    const [mobileOpen, setMobileOpen] = useState(false);
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
