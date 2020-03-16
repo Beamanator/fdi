@@ -14,11 +14,11 @@ import { makeStyles } from "@material-ui/core/styles";
 // message configurations
 const swift2019 = {
     path: "swift-2019",
-    message: "FDI - SWIFT 2019",
+    message: "SWIFT 2019",
 };
 const erupt2020 = {
     path: "erupt-2020",
-    message: "FDI - ERUPT 2020",
+    message: "ERUPT 2020",
 };
 
 const LeftLinks = ({ handleDrawerToggle }) => {
