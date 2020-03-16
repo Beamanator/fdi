@@ -1,6 +1,6 @@
 # SWIFT - by FDI
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/19b6166a-67a9-447f-bbc9-8fb7282e093b/deploy-status)](https://app.netlify.com/sites/somethingsomethingsomething/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/19b6166a-67a9-447f-bbc9-8fb7282e093b/deploy-status)](https://app.netlify.com/sites/flyingdiscinvasion/deploys)
 
 ## Flying Disc Invasion
 
