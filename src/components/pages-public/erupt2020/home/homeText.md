@@ -28,7 +28,7 @@ Check out the other tabs on this site to see the the tournament Agenda and score
     - There is **no point cap for each game**! Play until the time ends. Halftime is at 20 mins. When we reach halftime, finish the point and switch - _WITHOUT A BREAK_
     - On **Saturday (the 9th)**, everyone is advised to do exactly the same as we did in Friday :) _Please don't show up late!_
     - _Pulling time_ is limited to 45 seconds. The time starts once a point has been scored - this means players have only **45 seconds** to celebrate a scored point, figure out subs, and talk strategy before the next pull is soaring!
-    - If you have any questions, check the agenda [here](/erupt2020/agenda)
+    - If you have any questions, check the agenda [here](/erupt-2020/agenda)
 
 3. **Points and Rakings - Tournament Format**:
 
