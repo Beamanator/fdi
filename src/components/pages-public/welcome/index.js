@@ -27,6 +27,8 @@ const Welcome = () => {
     const [welcomeText, setWelcomeText] = useState("");
 
     useEffect(() => {
+        document.title = "FDI - Welcome";
+
         fetch(welcomeTextFile)
             .then((response) => {
                 if (response.ok) return response.text();

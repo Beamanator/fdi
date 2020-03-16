@@ -32,6 +32,8 @@ const Home = () => {
     const [homeText, setHomeText] = useState("");
 
     useEffect(() => {
+        document.title = "ERUPT 2020";
+
         fetch(homeTextFile)
             .then((response) => {
                 if (response.ok) return response.text();

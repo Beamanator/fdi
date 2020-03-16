@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Markdown from "react-markdown";
 
 // images
@@ -24,6 +24,10 @@ const Image = ({ alt: config, src }) => {
 
 const Home = () => {
     const classes = makeStyles(styles)();
+
+    useEffect(() => {
+        document.title = "SWIFT 2019";
+    });
 
     return (
         <>

@@ -54,7 +54,7 @@ Check out the other tabs on this site to see the the tournament Agenda and score
         - 3rd and 4th will play on 3rd and 4th places
         - and so on...
     - We know this sounds a little complicated, but **don't worry**! All you need to do is to win, enjoy the day, and check the [ranking]() and [scores]() tabs :D
-    - We are playing according all [WFDF rules](https://rules.wfdf.org/) **EXCEPT** <u>Stall will only be to 7 seconds</u>!
+    - We are playing according all [WFDF rules](https://rules.wfdf.org/) **EXCEPT _Stall will only be to 7 seconds_**!
     - If you have any further questions about how each round will work, please feel free to drop us a message or ask on the WhatsApp group!
 
 4. **Logistics**:
