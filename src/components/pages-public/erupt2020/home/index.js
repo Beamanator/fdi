@@ -1,39 +1,44 @@
 import React, { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 
-// header image
-import ERUPT2017Image from "../../../assets/ERUPT_2017_pic.jpg";
+// images
+import ERUPTImage from "../../../../assets/ERUPT_2019_pic.jpeg";
+
+// markdown text
+import homeTextFile from "./homeText.md";
 
 // material-ui
 import Typography from "@material-ui/core/Typography";
-
-// markdown text
-import welcomeTextFile from "./welcome.md";
 
 // styles
 import { makeStyles } from "@material-ui/styles";
 import styles from "./styles";
 
-const Image = ({ alt: config, src }) => {
+const Image = ({ alt: config, src: fileName }) => {
     const classes = makeStyles(styles)();
 
+    // dynamically load image based on filename (from md file)
+    // -> for some reason, couldn't require(fullPath) didn't work
+    let imgSrc = require("../../../../assets/" + fileName);
+
+    // break out image alt & class
     const [alt, imgClass] = config.split("/");
 
-    return <img alt={alt} className={classes[imgClass]} src={src} />;
+    return <img alt={alt} className={classes[imgClass]} src={imgSrc} />;
 };
 
-const Welcome = () => {
+const Home = () => {
     const classes = makeStyles(styles)();
-    const [welcomeText, setWelcomeText] = useState("");
+    const [homeText, setHomeText] = useState("");
 
     useEffect(() => {
-        fetch(welcomeTextFile)
+        fetch(homeTextFile)
             .then((response) => {
                 if (response.ok) return response.text();
                 else return Promise.reject("Didn't fetch text correctly");
             })
             .then((text) => {
-                setWelcomeText(text);
+                setHomeText(text);
             })
             .catch((error) => console.error(error));
     });
@@ -41,17 +46,16 @@ const Welcome = () => {
     return (
         <>
             <img
-                alt="erupt 2017 - FDI's first tournament"
-                src={ERUPT2017Image}
+                alt="erupt 2019"
+                src={ERUPTImage}
                 className={classes.headerImg}
             />
             {/* Render same header style on all pages */}
-            <Typography variant="h4">Welcome, young and old!</Typography>
+            <Typography variant="h4">ERUPT 2020 Tournament Details</Typography>
             {/* Render rest of text from markdown here */}
-            <Markdown source={welcomeText} />
-            {/* <Markdown renderers={{ image: Image }} source={welcomeText} /> */}
+            <Markdown renderers={{ image: Image }} source={homeText} />
         </>
     );
 };
 
-export default Welcome;
+export default Home;
