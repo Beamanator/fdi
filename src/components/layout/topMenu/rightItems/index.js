@@ -18,6 +18,7 @@ const RightItems = () => {
     const classes = makeStyles(styles)();
     const { pathname } = useLocation();
 
+    // determine which breadcrumbs to display based on current path
     let breadcrumbs = [];
     if (pathname.includes(swift2019.path)) breadcrumbs = swift2019.breadcrumbs;
     else if (pathname.includes(erupt2020.path))
