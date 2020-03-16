@@ -48,7 +48,7 @@ const Home = () => {
     return (
         <>
             <img
-                alt="erupt 2019"
+                alt="last year at erupt 2019"
                 src={ERUPTImage}
                 className={classes.headerImg}
             />

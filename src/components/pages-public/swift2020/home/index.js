@@ -26,18 +26,18 @@ const Home = () => {
     const classes = makeStyles(styles)();
 
     useEffect(() => {
-        document.title = "SWIFT 2019";
+        document.title = "SWIFT 2020";
     });
 
     return (
         <>
             <img
-                alt="swift 2019"
+                alt="last year at swift 2019"
                 src={SWIFTImage}
                 className={classes.headerImg}
             />
             {/* Render same header style on all pages */}
-            <Typography variant="h4">SWIFT 2019 Tournament Details</Typography>
+            <Typography variant="h4">SWIFT 2020 Tournament Details</Typography>
             {/* Render rest of text from markdown here */}
             <Markdown renderers={{ image: Image }} source={homeText} />
         </>

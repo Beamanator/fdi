@@ -70,8 +70,8 @@ const BasicItems = () => {
                             },
                             {
                                 Icon: BeachAccessIcon,
-                                label: "SWIFT 2019",
-                                path: "/swift-2019",
+                                label: "SWIFT 2020",
+                                path: "/swift-2020",
                             },
                         ].map(({ Icon, label, path }, index) => (
                             <React.Fragment key={path}>

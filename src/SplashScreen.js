@@ -37,8 +37,8 @@ const SplashScreen = () => {
                 background: gradient,
             }}
         >
-            <Typography variant="h4">FDI</Typography>
-            <Typography variant="h1">SWIFT</Typography>
+            <Typography variant="h4">Flying Disc</Typography>
+            <Typography variant="h1">Invasion</Typography>
             <Spinner2 />
         </div>
     );

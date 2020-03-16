@@ -3,7 +3,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 
-export const path = "swift-2019";
+export const path = "swift-2020";
 
 export const breadcrumbs = [
     {

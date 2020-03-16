@@ -7,11 +7,11 @@ import Erupt2020Agenda from "./components/pages-public/erupt2020/agenda";
 import Erupt2020Home from "./components/pages-public/erupt2020/home";
 import Erupt2020PoolPlay from "./components/pages-public/erupt2020/poolPlay";
 import Erupt2020Rankings from "./components/pages-public/erupt2020/rankings";
-// -> swift2019
-import Swift2019Agenda from "./components/pages-public/swift2019/agenda";
-import Swift2019Bracket from "./components/pages-public/swift2019/bracketPlay";
-import Swift2019Home from "./components/pages-public/swift2019/home";
-import Swift2019PoolPlay from "./components/pages-public/swift2019/poolPlay";
+// -> swift2020
+import Swift2020Agenda from "./components/pages-public/swift2020/agenda";
+import Swift2020Bracket from "./components/pages-public/swift2020/bracketPlay";
+import Swift2020Home from "./components/pages-public/swift2020/home";
+import Swift2020PoolPlay from "./components/pages-public/swift2020/poolPlay";
 
 import Welcome from "./components/pages-public/welcome";
 
@@ -37,15 +37,15 @@ const Routes = () => (
             component={Erupt2020Rankings}
         />
 
-        {/* swift-2019 event routes */}
-        <Route exact path="/swift-2019/agenda" component={Swift2019Agenda} />
-        <Route exact path="/swift-2019/bracket" component={Swift2019Bracket} />
+        {/* swift-2020 event routes */}
+        <Route exact path="/swift-2020/agenda" component={Swift2020Agenda} />
+        <Route exact path="/swift-2020/bracket" component={Swift2020Bracket} />
         <Route
             exact
-            path={["/swift-2019", "/swift-2019/home"]}
-            component={Swift2019Home}
+            path={["/swift-2020", "/swift-2020/home"]}
+            component={Swift2020Home}
         />
-        <Route exact path="/swift-2019/pool" component={Swift2019PoolPlay} />
+        <Route exact path="/swift-2020/pool" component={Swift2020PoolPlay} />
 
         {/* 404 Not Found Page */}
         <Route component={NotFound} />

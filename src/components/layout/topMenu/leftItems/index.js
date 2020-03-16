@@ -12,9 +12,9 @@ import styles from "./styles";
 import { makeStyles } from "@material-ui/core/styles";
 
 // message configurations
-const swift2019 = {
-    path: "swift-2019",
-    message: "SWIFT 2019",
+const swift2020 = {
+    path: "swift-2020",
+    message: "SWIFT 2020",
 };
 const erupt2020 = {
     path: "erupt-2020",
@@ -27,7 +27,7 @@ const LeftLinks = ({ handleDrawerToggle }) => {
 
     // determine message to display based on current path
     let message = "Flying Disc Invasion";
-    if (pathname.includes(swift2019.path)) message = swift2019.message;
+    if (pathname.includes(swift2020.path)) message = swift2020.message;
     else if (pathname.includes(erupt2020.path)) message = erupt2020.message;
 
     return (

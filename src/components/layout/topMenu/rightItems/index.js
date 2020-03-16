@@ -8,7 +8,7 @@ import Link from "@material-ui/core/Link";
 
 // event configurations
 import * as erupt2020 from "./breadcrumbConfigs/erupt-2020";
-import * as swift2019 from "./breadcrumbConfigs/swift-2019";
+import * as swift2020 from "./breadcrumbConfigs/swift-2020";
 
 // styles
 import styles from "./styles";
@@ -20,7 +20,7 @@ const RightItems = () => {
 
     // determine which breadcrumbs to display based on current path
     let breadcrumbs = [];
-    if (pathname.includes(swift2019.path)) breadcrumbs = swift2019.breadcrumbs;
+    if (pathname.includes(swift2020.path)) breadcrumbs = swift2020.breadcrumbs;
     else if (pathname.includes(erupt2020.path))
         breadcrumbs = erupt2020.breadcrumbs;
 
