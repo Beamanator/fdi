@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 // import PropTypes from 'prop-types'
 
 // redux
-import { connect } from "react-redux";
+// import { connect } from "react-redux";
 
 // @material-ui/core
 import Divider from "@material-ui/core/Divider";
@@ -19,8 +19,6 @@ import Typography from "@material-ui/core/Typography";
 // @material-ui/icons
 import AcUnitIcon from "@material-ui/icons/AcUnit";
 import BeachAccessIcon from "@material-ui/icons/BeachAccess";
-import PeopleOutlineIcon from "@material-ui/icons/PeopleOutline";
-import RolesIcon from "@material-ui/icons/FormatListBulleted";
 import WelcomeIcon from "@material-ui/icons/Dashboard";
 
 // styles

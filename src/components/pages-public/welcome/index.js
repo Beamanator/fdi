@@ -14,14 +14,6 @@ import welcomeTextFile from "./welcome.md";
 import { makeStyles } from "@material-ui/styles";
 import styles from "./styles";
 
-const Image = ({ alt: config, src }) => {
-    const classes = makeStyles(styles)();
-
-    const [alt, imgClass] = config.split("/");
-
-    return <img alt={alt} className={classes[imgClass]} src={src} />;
-};
-
 const Welcome = () => {
     const classes = makeStyles(styles)();
     const [welcomeText, setWelcomeText] = useState("");

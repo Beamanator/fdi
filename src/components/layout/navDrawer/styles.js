@@ -1,3 +1,4 @@
+/*eslint no-dupe-keys: "ignore"*/
 const NAV_DRAWER_WIDTH = 240;
 
 const styles = (theme) => ({
