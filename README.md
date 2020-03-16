@@ -22,3 +22,7 @@ So what is our objective? Our objective is to invade Egypt with a new culture en
 ### How to get in contact
 
 Have any questions about what we do or how to get involved? Send us a message on [Facebook](https://www.facebook.com/FlyingDiscInvasion/), [Instagram](https://www.instagram.com/flying.disc.invasion/), or [Gmail](mailto:flying.disc.invasion@gmail.com) and we'll get back to you ASAP ;)
+
+## Developer Notes
+
+When you hook up to an api, you probably had to create credentials in `console.developers.google.com`. If you hook up your project to a website (say, for example, frisbee-is-awesome.netlify.com), You will need to "whitelist" this domain to use your credentials.
