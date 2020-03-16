@@ -1,10 +1,4 @@
-# SWIFT - by FDI
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/19b6166a-67a9-447f-bbc9-8fb7282e093b/deploy-status)](https://app.netlify.com/sites/flyingdiscinvasion/deploys)
-
-## Flying Disc Invasion
-
-### Who we are
+## Who we are
 
 Flying Disc Invasion (FDI) is actively invading Egypt with a new sport. Which sport, you ask? Ultimate (a.k.a. Frisbee). Many people in Egypt associate Ultimate with a game to be played with your dog, or a few minutes of fun on a beach.
 
@@ -19,6 +13,6 @@ Flying Disc Invasion (FDI) is actively invading Egypt with a new sport. Which sp
 
 So what is our objective? Our objective is to invade Egypt with a new culture endorsing healthy habits via the spreading of Ultimate Frisbee and its core values of inclusion, peace, friendship and healthy living. We plan to give every Egyptian the opportunity to hold a Frisbee and experience the delight we have all felt while participating in the amazing sport.
 
-### How to get in contact
+## How to get in contact
 
 Have any questions about what we do or how to get involved? Send us a message on [Facebook](https://www.facebook.com/FlyingDiscInvasion/), [Instagram](https://www.instagram.com/flying.disc.invasion/), or [Gmail](mailto:flying.disc.invasion@gmail.com) and we'll get back to you ASAP ;)

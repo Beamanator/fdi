@@ -1,6 +1,6 @@
 // images
-import FieldImage from "../../../assets/alex_west_map.jpeg";
-import HandSignalsImage from "../../../assets/WFDF_hand_signals.jpeg";
+import FieldImage from "../../../../assets/alex_west_map.jpeg";
+import HandSignalsImage from "../../../../assets/WFDF_hand_signals.jpeg";
 
 export default `
 _#SWIFT2020_ is hosting 10 Mixed ultimate teams (around 160

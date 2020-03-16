@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Markdown from "react-markdown";
 
 // images
-import SWIFTImage from "../../../assets/SWIFT_2019_pic.jpeg";
+import SWIFTImage from "../../../../assets/SWIFT_2019_pic.jpeg";
 
 // markdown text
 import homeText from "./homeText";
@@ -24,6 +24,10 @@ const Image = ({ alt: config, src }) => {
 
 const Home = () => {
     const classes = makeStyles(styles)();
+
+    useEffect(() => {
+        document.title = "SWIFT 2019";
+    });
 
     return (
         <>

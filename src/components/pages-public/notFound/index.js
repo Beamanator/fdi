@@ -18,7 +18,7 @@ const NotFound = () => {
 
     // automatically open home page if empty path
     const location = useLocation();
-    if (location.pathname === "/") return <Redirect to="/home" />;
+    if (location.pathname === "/") return <Redirect to="/welcome" />;
 
     return (
         <Grid
