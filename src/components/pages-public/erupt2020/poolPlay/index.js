@@ -31,7 +31,6 @@ const PoolPlay = ({ getPoolData, poolAData, poolBData }) => {
         selectableRows: "none",
     };
 
-    console.log(poolAData, poolBData);
     return (
         <>
             <Typography style={{ marginBottom: "20px" }} variant="h4">
