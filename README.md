@@ -26,3 +26,5 @@ Have any questions about what we do or how to get involved? Send us a message on
 ## Developer Notes
 
 When you hook up to an api, you probably had to create credentials in `console.developers.google.com`. If you hook up your project to a website (say, for example, frisbee-is-awesome.netlify.com), You will need to "whitelist" this domain to use your credentials.
+
+When you're trying to use the google-api methods `gapi.client.sheets.spreadsheets.values`... Make sure your spreadsheet has Link-sharing on - even just 'Anyone with the link "Can View" your spreadsheet'.

@@ -1,3 +1,5 @@
+export const SPREADSHEET_ID = "1NgRmsAkdekwA6DEvKJCKq5fmlnh-cJcBxskg22AunM4";
+
 // data keys for pools A & B
 export const POOL_A = {
     dataKey: "POOL_A",

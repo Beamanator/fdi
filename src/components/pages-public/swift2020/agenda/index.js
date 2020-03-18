@@ -20,7 +20,7 @@ import Typography from "@material-ui/core/Typography";
 
 // redux
 import * as actions from "../../../../store/actions";
-import * as sheetGetConfigs from "../../../../store/sheetGetConfigs";
+import * as sheetGetConfigs from "../../../../store/sheetGetConfigs/swift2020";
 import { connect } from "react-redux";
 
 // styles
@@ -133,7 +133,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
     getAgendaData: () =>
         dispatch(
-            actions.getSheetDataByRangeConfigs([
+            actions.getSheetDataByRangeConfigs(sheetGetConfigs.SPREADSHEET_ID, [
                 sheetGetConfigs.AGENDA_HEADER,
                 sheetGetConfigs.AGENDA_ROUND_1,
                 sheetGetConfigs.AGENDA_ROUND_2,
