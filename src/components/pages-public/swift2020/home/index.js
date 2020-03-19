@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 
 // images
 import SWIFTImage from "../../../../assets/SWIFT_2019_pic.jpeg";
 
 // markdown text
-import homeText from "./homeText";
+import homeTextFile from "./homeText.md";
 
 // material-ui
 import Typography from "@material-ui/core/Typography";
@@ -14,19 +14,34 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/styles";
 import styles from "./styles";
 
-const Image = ({ alt: config, src }) => {
+const Image = ({ alt: config, src: fileName }) => {
     const classes = makeStyles(styles)();
+
+    // dynamically load image based on filename (from md file)
+    // -> for some reason, couldn't require(fullPath) didn't work
+    let imgSrc = require("../../../../assets/" + fileName);
 
     const [alt, imgClass] = config.split("/");
 
-    return <img alt={alt} className={classes[imgClass]} src={src} />;
+    return <img alt={alt} className={classes[imgClass]} src={imgSrc} />;
 };
 
 const Home = () => {
     const classes = makeStyles(styles)();
+    const [homeText, setHomeText] = useState("");
 
     useEffect(() => {
         document.title = "SWIFT 2020";
+
+        fetch(homeTextFile)
+            .then((response) => {
+                if (response.ok) return response.text();
+                else return Promise.reject("Didn't fetch text correctly");
+            })
+            .then((text) => {
+                setHomeText(text);
+            })
+            .catch((error) => console.error(error));
     });
 
     return (
