@@ -1,3 +1,5 @@
+# Note: This tournament is over!
+
 _#SWIFT2020_ hosted 10 Mixed ultimate teams (around 160 players from more than 8 different nationalities) on 2 days (February 7th, 2020) (February 8th, 2020) at ALEX WEST! Here are the tournament specifics:
 
 -   Dates: February 7th (Friday) - 8th (Saturday), 2020
