@@ -23,7 +23,7 @@ const NavDrawer = ({ handleDrawerToggle, mobileOpen }) => {
     // const currentPath = location.pathname;
 
     const drawer = (
-        <div onClick={handleDrawerToggle}>
+        <div>
             <div className={classes.logoBox}>
                 <img src={Logo} alt="Logo" width={"100%"} />
             </div>
@@ -47,6 +47,7 @@ const NavDrawer = ({ handleDrawerToggle, mobileOpen }) => {
                 variant="temporary"
                 open={mobileOpen}
                 onClose={handleDrawerToggle}
+                onClick={handleDrawerToggle}
                 classes={{
                     paper: classes.drawerPaper,
                 }}

@@ -47,17 +47,17 @@ const BasicItems = () => {
 
             <Divider className={classes.dividerGray} />
 
-            {/* Manage members */}
+            {/* Upcoming Events */}
             <ExpansionPanel
                 expanded
                 elevation={0}
-                classes={{ expanded: classes.expansionPanelRoot }}
+                classes={{ expanded: classes.expansionPanel }}
             >
                 <ExpansionPanelSummary>
                     <Typography
                         style={{ textDecoration: "none", color: "inherit" }}
                     >
-                        {"Check Our Events!"}
+                        {"Upcoming Events"}
                     </Typography>
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
@@ -68,6 +68,55 @@ const BasicItems = () => {
                                 label: "ERUPT 2020",
                                 path: "/erupt-2020",
                             },
+                        ].map(({ Icon, label, path }, index) => (
+                            <React.Fragment key={path}>
+                                {index ? null : (
+                                    <Divider className={classes.dividerGray} />
+                                )}
+                                <ListItem
+                                    button
+                                    activeClassName={classes.active}
+                                    component={NavLink}
+                                    to={path}
+                                >
+                                    <ListItemIcon
+                                        classes={{ root: classes.menuItemIcon }}
+                                    >
+                                        <Icon />
+                                    </ListItemIcon>
+                                    <ListItemText primary={label} />
+                                </ListItem>
+                                <Divider className={classes.dividerGray} />
+                            </React.Fragment>
+                        ))}
+                    </List>
+                </ExpansionPanelDetails>
+            </ExpansionPanel>
+
+            <Divider className={classes.dividerGray} />
+
+            {/* Previous Events */}
+            <ExpansionPanel
+                elevation={0}
+                classes={{ root: classes.expansionPanel }}
+                // cancel click propagation so nav drawer doesn't
+                // -> close when this panel is expanded
+                onChange={(e) => e.stopPropagation()}
+            >
+                <ExpansionPanelSummary>
+                    <Typography
+                        style={{
+                            backgroundColor: "rgba(0,0,0,0)",
+                            textDecoration: "none",
+                            color: "white",
+                        }}
+                    >
+                        {"Previous Events"}
+                    </Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                    <List dense disablePadding>
+                        {[
                             {
                                 Icon: BeachAccessIcon,
                                 label: "SWIFT 2020",

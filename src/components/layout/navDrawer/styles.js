@@ -29,7 +29,7 @@ const styles = (theme) => ({
     },
     // remove vertical padding between "expansion panel"
     // -> and other elements
-    expansionPanelRoot: {
+    expansionPanel: {
         color: "white",
         backgroundColor: "rgba(0,0,0,0)",
         "&.Mui-expanded": {
