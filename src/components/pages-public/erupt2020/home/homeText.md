@@ -79,7 +79,7 @@ Check out the other tabs on this site to see the the tournament Agenda and score
     - In other words, **Let's have some fun playing Ultimate and respect the other players and members of this incredible community!!**
     - There will be no spirit sheets to fill, but ERUPT is all about good spirit! Stop the game if you need to talk about the rules or self officiation skills.
     - One **critical** feature of _spirit of the game_ is _**UNDERSTANDING**_ the rules of the game we're all playing! If you have any questions, check out the official [WFDF rules](https://rules.wfdf.org/).
-        - Also, its crucial to understand that other people will always often will have a different point of view on most calls. Its **OK** to disagree, as long as we always get back to the rules and communicate respectfully.
+        - Also, it's crucial to understand that other people will often have a different point of view on calls during matches. It's **OK** to disagree, as long as we always get back to the rules and communicate respectfully.
 
 7. **Sideline Games**:
 
