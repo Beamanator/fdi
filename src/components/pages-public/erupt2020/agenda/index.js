@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 // local components
 // import BracketRound from "./bracketRound";
+import BreakRound from "./breakRound";
 import PoolRound from "./poolRound";
 import Header from "./header";
 import Spinner from "../../../ui/Spinner";
@@ -32,7 +33,7 @@ const Agenda = ({
 
     agendaR1Data,
     agendaR2Data,
-    agendaR3Data,
+    agendaR3BreakData,
     agendaR4Data,
 
     agendaR5Data,
@@ -54,7 +55,7 @@ const Agenda = ({
         !agendaHeader.length ||
         !agendaR1Data.length ||
         !agendaR2Data.length ||
-        !agendaR3Data.length ||
+        !agendaR3BreakData.length ||
         !agendaR4Data.length ||
         !agendaR5Data.length ||
         !agendaR6Data.length ||
@@ -62,6 +63,7 @@ const Agenda = ({
         !agendaR8Data.length
     )
         return <Spinner />;
+    console.log(agendaR3BreakData);
     return (
         <>
             <Typography style={{ marginBottom: "20px" }} variant="h4">
@@ -81,7 +83,7 @@ const Agenda = ({
                         <TableLabel cols={12} text="Day 1" />
                         <PoolRound data={agendaR1Data} label="r1" />
                         <PoolRound data={agendaR2Data} label="r2" />
-                        <PoolRound data={agendaR3Data} label="r3" />
+                        <BreakRound data={agendaR3BreakData} label="r3" />
                         <PoolRound data={agendaR4Data} label="r4" />
 
                         <TableLabel cols={12} text="Day 2" />
@@ -108,8 +110,9 @@ const mapStateToProps = (state) => ({
         state.sheetData.data[sheetGetConfigs.AGENDA_ROUND_1.dataKey] || [],
     agendaR2Data:
         state.sheetData.data[sheetGetConfigs.AGENDA_ROUND_2.dataKey] || [],
-    agendaR3Data:
-        state.sheetData.data[sheetGetConfigs.AGENDA_ROUND_3.dataKey] || [],
+    agendaR3BreakData:
+        state.sheetData.data[sheetGetConfigs.AGENDA_ROUND_3_BREAK.dataKey] ||
+        [],
     agendaR4Data:
         state.sheetData.data[sheetGetConfigs.AGENDA_ROUND_4.dataKey] || [],
 
@@ -130,7 +133,7 @@ const mapDispatchToProps = (dispatch) => ({
 
                 sheetGetConfigs.AGENDA_ROUND_1,
                 sheetGetConfigs.AGENDA_ROUND_2,
-                sheetGetConfigs.AGENDA_ROUND_3,
+                sheetGetConfigs.AGENDA_ROUND_3_BREAK,
                 sheetGetConfigs.AGENDA_ROUND_4,
 
                 sheetGetConfigs.AGENDA_ROUND_5,
