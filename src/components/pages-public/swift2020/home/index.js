@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 
+// local components
+import FAB from ".././../../ui/FAB";
+
 // images
 import SWIFTImage from "../../../../assets/SWIFT_2019_pic.jpeg";
 
@@ -8,6 +11,7 @@ import SWIFTImage from "../../../../assets/SWIFT_2019_pic.jpeg";
 import homeTextFile from "./homeText.md";
 
 // material-ui
+import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import Typography from "@material-ui/core/Typography";
 
 // styles
@@ -44,8 +48,22 @@ const Home = () => {
             .catch((error) => console.error(error));
     });
 
+    const handlePhotosClick = () => {
+        window.open(
+            "https://drive.google.com/drive/folders/1R-eVxU_oDHWhKxfM2xOyDXuDiy32lyDT?fbclid=IwAR0E8u1DE8KWWhzzR-YVzSg-cwcAmWOfeWwku0ciHnR54wwqPM7BHWlJWFQ",
+            "_blank"
+        );
+    };
+
     return (
         <>
+            <FAB
+                buttonStyle={{ backgroundColor: "black" }}
+                Icon={PhotoLibraryIcon}
+                onClick={handlePhotosClick}
+                text="Pictures"
+                tooltip="SWIFT 2020 Pictures"
+            />
             <img
                 alt="last year at swift 2019"
                 src={SWIFTImage}
