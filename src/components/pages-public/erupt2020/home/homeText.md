@@ -1,7 +1,13 @@
-_#ERUPT2020_ is back again for its **4th edition** of the epic Ramadan-based hat tournament in Egypt!! Eight teams of random players (around 150 athletes from multiple nationalities) will battle it on over 2 days (May 8th - 9th, 2020) at SODIC SPORTS CLUB! Here are the tournament specifics:
+_#ERUPT2020_ was sadly cancelled due to obvious reasons. COVID-19 was too rampant around the time of Ramadan, and we didn't want to risk the lives of our members or our members' families. The **4th edition** of the epic Ramadan-based hat tournament in Egypt will hopefully come back in 2021!!
 
--   Dates: May 8th (Friday) - May 9th (Saturday), 2020
--   Location: SODIC SPORTS CLUB (Turf): https://goo.gl/maps/HkaRG1QCi8oDn9YC6
+Below are the event details that we _would have_ followed if the event had happened. We'll keep 'em around just in case anyone wants to use the rules / ideas for their own event! **Keep those discs flying** 🥏
+
+## Tournament Intro
+
+Eight teams of random players (around # athletes from multiple nationalities) will battle it on over 2 days (date range) at (location)! Here are the tournament specifics:
+
+-   Dates: Date (Day of week) - Date (Day of week), 2020
+-   Location: (Name of location) (Field surface): [link to field in google maps]
 -   Number of Teams: 8 - (max of 10 players per team)
 -   Ratio: 3 (men) : 2 (women)
 -   Tournament type: HAT tournament - Mixed gender - 5 v 5 teams
