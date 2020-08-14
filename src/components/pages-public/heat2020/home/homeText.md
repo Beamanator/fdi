@@ -2,36 +2,36 @@
 
 Let's get right into it!! We are all excited to get back to playing ultimate, so let's get back by having a little HAT tournament in Alexandria to kick off the post pandemic era of ultimate in Egypt.
 
-Eight teams of random players (around 100 athletes from multiple nationalities) will battle it in the grueling heat at Alex West! Here are the tournament specifics:
+Eight teams of random players (~100 athletes from multiple nationalities) will battle it in the grueling heat at Alex West! Here are the tournament specifics:
 
 -   Date: 21 August (Friday), 2020
 -   Location: Alex West (real grass): [Find them on Facebook](https://www.facebook.com/RadissonBluHotelAlexandria/)
--   Number of Teams: 8 - (max of 14 players per team)
--   Ratio: 3 (men) : 2 (women) _or_ 4 (men) : 1 (women)
--   Tournament type: HAT tournament - Mixed gender - 5 v 5 teams
+-   Number of Teams: 8 - (~11 players per team)
+-   Ratio: 4 (men) : 2 (women)
+-   Tournament type: HAT tournament - Mixed gender - 6 v 6 teams
 
 ## Event specifics
 
-Check out the other tabs on this site to see the tournament Agenda and scores + rankings throughout the tournament! Additionally, find below more specific tournament details.
+Below, find all the nitty-gritty tournament-specific details and rules. If we missed anything, please let us know!
 
 1. **Fields**:
 
     - We will be playing on real grass, so make sure you bring comfortable shoes to run in ;) We anticipate many people will be wearing cleats, so please don't plan to play barefoot!
     - We have 3 fields (A, B, and C) _as shown in the picture below_. Please check the agenda and be ready on your field **before each game starts**.
-    - Field dimensions are (`35 m x 100 m`).
+    - Field dimensions are (`33 m x 70 m`).
 
 ![field layout/fieldImg](alex_west_map_3_fields.jpeg)
 
 2. **Games and Timing**:
 
-    - We want to make sure everyone has a chance to eat, throw some discs a little bit (or throw up after eating), meet teammates, and ask any questions before matches begin! After that, Flying Disc Invasion will quickly present the rules, field arrangement, and any other necessary announcements so please arrive **before 8:15 am**!!
+    - We want to make sure everyone has a chance to warm up, throw some discs a little bit, meet teammates, and ask any questions before matches begin. After that, Flying Disc Invasion will quickly present the rules, field arrangement, and any other necessary announcements so please arrive **before 8:15 am**!!
     - On **Friday (the 21st)** games start at 9:00 am **sharp**!
     - Games last 45 mins, _no hard or soft caps_. When the time is up, finish the point. _Note: Ties are only allowed during pool play, not during bracket matches._
     - Breaks between games are _15 mins_.
     - There is **1 timeout** per team per half (1 min each).
     - There is **no point cap for each game**! Play until the time ends. Halftime is at 20 mins. When we reach halftime, finish the point and switch - You have a 5 minute halftime break.
     - _Pulling time_ is limited to 45 seconds. The time starts once a point has been scored - this means players have only **45 seconds** to celebrate a scored point, figure out subs, and talk strategy before the next pull is soaring!
-    - If you have any questions, check the agenda [here](/heat-2020/agenda)
+    - If you have any questions, please ask :D
 
 3. **Points and Rakings - Tournament Format**:
 
@@ -45,7 +45,7 @@ Check out the other tabs on this site to see the tournament Agenda and scores + 
             - In case of a tie, head to head matches will be taken into consideration, then the total goal difference for each team will be the tie breaker.
         - There will be big break after the third round to get some snacks, play some sideline games, and take a group picture.
     - After those 4 rounds, teams will be ranked from 1 to 8 based on their _match points_, and the bracket round begins!
-    - If this sounds a little complicated, **don't worry**! All you need to do is to win, enjoy the day, and check the [ranking]() and [scores]() tabs :D
+    - If this sounds a little complicated, **don't worry**! All you need to do is to win, enjoy the day, and ask the volunteers or organizers if you have questions :D
     - We are playing according all [WFDF rules](https://rules.wfdf.org/).
     - If you have any further questions about how each round will work, please feel free to drop us a message!
 
@@ -63,7 +63,7 @@ Check out the other tabs on this site to see the tournament Agenda and scores + 
 
 5. **Gender Ratio**:
 
-    - As we move toward proper mixed ultimate in Egypt, we are trying to encourage more ladies by enforcing the correct gender ratio step by step in our tournaments. Therefore, we kindly ask all teams to have the ratio of 3 men : 2 ladies at all times, unless some players are injured of course. However, if both teams agree that they prefer a ratio of 4 men : 1 lady, go for it.
+    - As we move toward proper mixed ultimate in Egypt, we are trying to encourage more ladies by enforcing the correct gender ratio step by step in our tournaments. Therefore, we kindly ask all teams to have the ratio of 4 men : 2 ladies at all times.
 
 6. **Spirit of the Game**:
 

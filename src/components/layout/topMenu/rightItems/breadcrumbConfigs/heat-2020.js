@@ -10,14 +10,4 @@ export const breadcrumbs = [
         path: `/${path}/home`,
         Icon: HomeWorkIcon,
     },
-    {
-        label: "Pool Play",
-        path: `/${path}/pool`,
-        Icon: PoolIcon,
-    },
-    {
-        label: "Rankings",
-        path: `/${path}/rankings`,
-        Icon: RestaurantIcon,
-    },
 ];
