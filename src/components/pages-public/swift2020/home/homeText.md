@@ -16,7 +16,7 @@ _#SWIFT2020_ hosted 10 Mixed ultimate teams (around 160 players from more than 8
 
 ## Event specifics
 
-Check out the other tabs on this site to see the the tournament Agenda and scores + rankings during the Pool-play stage and bracket stage. Additionally, find below more specific tournament details.
+Check out the other tabs on this site to see the tournament Agenda and scores + rankings during the Pool-play stage and bracket stage. Additionally, find below more specific tournament details.
 
 1. **Fields**:
 

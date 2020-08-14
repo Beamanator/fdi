@@ -7,6 +7,7 @@ import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 import Link from "@material-ui/core/Link";
 
 // event configurations
+import * as heat2020 from "./breadcrumbConfigs/heat-2020";
 import * as erupt2020 from "./breadcrumbConfigs/erupt-2020";
 import * as swift2020 from "./breadcrumbConfigs/swift-2020";
 
@@ -23,6 +24,8 @@ const RightItems = () => {
     if (pathname.includes(swift2020.path)) breadcrumbs = swift2020.breadcrumbs;
     else if (pathname.includes(erupt2020.path))
         breadcrumbs = erupt2020.breadcrumbs;
+    else if (pathname.includes(heat2020.path))
+        breadcrumbs = heat2020.breadcrumbs;
 
     return (
         <Breadcrumbs

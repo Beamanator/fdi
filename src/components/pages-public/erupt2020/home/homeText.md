@@ -1,4 +1,6 @@
-_#ERUPT2020_ was sadly cancelled due to obvious reasons. COVID-19 was too rampant around the time of Ramadan, and we didn't want to risk the lives of our members or our members' families. The **4th edition** of the epic Ramadan-based hat tournament in Egypt will hopefully come back in 2021!!
+# Note: _#ERUPT2020_ was sadly cancelled!!
+
+COVID-19 was too rampant around the time of Ramadan, and we didn't want to risk the lives of our members or our members' families. The **4th edition** of the epic Ramadan-based hat tournament in Egypt will hopefully come back in 2021!!
 
 Below are the event details that we _would have_ followed if the event had happened. We'll keep 'em around just in case anyone wants to use the rules / ideas for their own event! **Keep those discs flying** 🥏
 
@@ -14,7 +16,7 @@ Eight teams of random players (around # athletes from multiple nationalities) wi
 
 ## Event specifics
 
-Check out the other tabs on this site to see the the tournament Agenda and scores + rankings after the first day and at the end of the tournament. Additionally, find below more specific tournament details.
+Check out the other tabs on this site to see the tournament Agenda and scores + rankings after the first day and at the end of the tournament. Additionally, find below more specific tournament details.
 
 1. **Fields**:
 

@@ -2,6 +2,8 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 
 // event routes
+// -> heat2020
+import Heat2020Home from "./components/pages-public/heat2020/home";
 // -> erupt2020
 import Erupt2020Agenda from "./components/pages-public/erupt2020/agenda";
 import Erupt2020Home from "./components/pages-public/erupt2020/home";
@@ -22,6 +24,13 @@ const Routes = () => (
     <Switch>
         {/* main welcome page */}
         <Route exact path="/welcome" component={Welcome} />
+
+        {/* heat-2020 event routes */}
+        <Route
+            exact
+            path={["/heat-2020", "/heat-2020/home"]}
+            component={Heat2020Home}
+        />
 
         {/* erupt-2020 event routes */}
         <Route exact path="/erupt-2020/agenda" component={Erupt2020Agenda} />

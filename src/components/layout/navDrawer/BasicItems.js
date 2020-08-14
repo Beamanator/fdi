@@ -20,6 +20,7 @@ import Typography from "@material-ui/core/Typography";
 import AcUnitIcon from "@material-ui/icons/AcUnit";
 import BeachAccessIcon from "@material-ui/icons/BeachAccess";
 import WelcomeIcon from "@material-ui/icons/Dashboard";
+import WhatshotIcon from "@material-ui/icons/Whatshot";
 
 // styles
 import { makeStyles } from "@material-ui/core/styles";
@@ -27,6 +28,26 @@ import styles from "./styles";
 
 const BasicItems = () => {
     const classes = makeStyles(styles)();
+
+    const upcomingEvents = [
+        {
+            Icon: WhatshotIcon,
+            label: "HEAT 2020",
+            path: "/heat-2020",
+        },
+    ];
+    const previousEvents = [
+        {
+            Icon: AcUnitIcon,
+            label: "ERUPT 2020",
+            path: "/erupt-2020",
+        },
+        {
+            Icon: BeachAccessIcon,
+            label: "SWIFT 2020",
+            path: "/swift-2020",
+        },
+    ];
 
     return (
         <>
@@ -62,13 +83,7 @@ const BasicItems = () => {
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                     <List dense disablePadding>
-                        {[
-                            {
-                                Icon: AcUnitIcon,
-                                label: "ERUPT 2020",
-                                path: "/erupt-2020",
-                            },
-                        ].map(({ Icon, label, path }, index) => (
+                        {upcomingEvents.map(({ Icon, label, path }, index) => (
                             <React.Fragment key={path}>
                                 {index ? null : (
                                     <Divider className={classes.dividerGray} />
@@ -116,13 +131,7 @@ const BasicItems = () => {
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails>
                     <List dense disablePadding>
-                        {[
-                            {
-                                Icon: BeachAccessIcon,
-                                label: "SWIFT 2020",
-                                path: "/swift-2020",
-                            },
-                        ].map(({ Icon, label, path }, index) => (
+                        {previousEvents.map(({ Icon, label, path }, index) => (
                             <React.Fragment key={path}>
                                 {index ? null : (
                                     <Divider className={classes.dividerGray} />
@@ -148,42 +157,6 @@ const BasicItems = () => {
             </ExpansionPanel>
 
             <Divider className={classes.dividerGray} />
-
-            {/* <List disablePadding>
-                {[
-                    {
-                        Icon: EventIcon,
-                        label: "Calendar",
-                        path: "/calendar",
-                    },
-                    {
-                        Icon: RolesIcon,
-                        label: "Reports",
-                        path: "/reports",
-                    },
-                ].map(({ Icon, label, path }, index) => (
-                    <React.Fragment key={path}>
-                        {index ? (
-                            <Divider className={classes.dividerGray} />
-                        ) : null}
-                        <ListItem
-                            button
-                            activeClassName={classes.active}
-                            component={NavLink}
-                            to={path}
-                        >
-                            <ListItemIcon
-                                classes={{ root: classes.menuItemIcon }}
-                            >
-                                <Icon />
-                            </ListItemIcon>
-                            <ListItemText primary={label} />
-                        </ListItem>
-                    </React.Fragment>
-                ))}
-            </List>
-
-            <Divider className={classes.dividerGray} /> */}
         </>
     );
 };
