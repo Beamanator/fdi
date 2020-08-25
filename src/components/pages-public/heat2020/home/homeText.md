@@ -1,8 +1,12 @@
+# Note: This tournament is over!
+
+## Tournament pictures coming soon! 📷
+
 # WELCOME BACK!!
 
 Let's get right into it!! We are all excited to get back to playing ultimate, so let's get back by having a little HAT tournament in Alexandria to kick off the post pandemic era of ultimate in Egypt.
 
-Eight teams of random players (~100 athletes from multiple nationalities) will battle it in the grueling heat at Alex West! Here are the tournament specifics:
+Eight teams of random players (~90 athletes from multiple nationalities) will battle it in the grueling heat at Alex West! Here are the tournament specifics:
 
 -   Date: 21 August (Friday), 2020
 -   Location: Alex West (real grass): [Find them on Facebook](https://www.facebook.com/RadissonBluHotelAlexandria/)
@@ -20,7 +24,7 @@ Below, find all the nitty-gritty tournament-specific details and rules. If we mi
     - We have 3 fields (A, B, and C) _as shown in the picture below_. Please check the agenda and be ready on your field **before each game starts**.
     - Field dimensions are (`33 m x 70 m`).
 
-![field layout/fieldImg](alex_west_map_3_fields.jpeg)
+![field layout/fieldImg](alex_west_map_3_fields_left.jpeg)
 
 2. **Games and Timing**:
 
@@ -29,7 +33,7 @@ Below, find all the nitty-gritty tournament-specific details and rules. If we mi
     - Games last 45 mins, _no hard or soft caps_. When the time is up, finish the point. _Note: Ties are only allowed during pool play, not during bracket matches._
     - Breaks between games are _15 mins_.
     - There is **1 timeout** per team per half (1 min each).
-    - There is **no point cap for each game**! Play until the time ends. Halftime is at 20 mins. When we reach halftime, finish the point and switch - You have a 5 minute halftime break.
+    - There is **no point cap for each game**! Play until the time ends. Halftime is at 22 mins - _no breaks!_. When we reach halftime, finish the point and switch.
     - _Pulling time_ is limited to 45 seconds. The time starts once a point has been scored - this means players have only **45 seconds** to celebrate a scored point, figure out subs, and talk strategy before the next pull is soaring!
     - If you have any questions, please ask :D
 
@@ -52,14 +56,14 @@ Below, find all the nitty-gritty tournament-specific details and rules. If we mi
 4. **Logistics**:
 
     - **Bathrooms**:
-        - You can find these in-between fields, on the far side away from the parking lot OR on the Hotel grounds. The hotel bathroom has lockers and showers as well, so we'd recommend using this location :) Check the picture above to see their location, or ask someone on your team to point you in the right direction.
+        - You can find these on the end of the field we'll play on, near the parking lot OR on the Hotel grounds (there's lots of construction there so try the bathroom on the field first). The field bathroom has showers as well, so we'd recommend using this location :) Check the picture above to see their location, or ask someone on your team to point you in the right direction.
     - **Water**:
         - We will place our big tanks of water next to each field. Don't forget to bring your water bottle and avoid wasting plastic! ;)
     - **Snacks and food**:
         - Bring your own food! There are no markets near the field, so you'll have to travel by car to reach restaurants or markets, so we recommend bringing everything you'll need for the day (and more to share 😜).
     - **T-shirts**:
-        - Volunteers will distribute tshirts once you arrive on the field. If you arrive late, we will try to get yours to you throughout the tournament.
-        - Players are obligated to either use the tournament shirts or a top with the same color during the tournament.
+        - There will no t-shirts distributed this tournament, so please make sure to bring a black **and** white shirt! Your team will have to change throughout the day so bring both!
+        - Note: **Gray is not white nor black! Don't bring a gray shirt!!**
 
 5. **Gender Ratio**:
 
