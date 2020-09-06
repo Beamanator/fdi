@@ -24,7 +24,7 @@ Below, find all the nitty-gritty tournament-specific details and rules. If we mi
     - We have 3 fields (A, B, and C) _as shown in the picture below_. Please check the agenda and be ready on your field **before each game starts**.
     - Field dimensions are (`33 m x 70 m`).
 
-![field layout/fieldImg](alex_west_map_3_fields_left.jpeg)
+![field layout/fieldImg](alex_west_map_3_fields_left.png)
 
 2. **Games and Timing**:
 
