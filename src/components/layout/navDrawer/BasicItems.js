@@ -5,6 +5,9 @@ import { NavLink } from "react-router-dom";
 // redux
 // import { connect } from "react-redux";
 
+// event arrays to show on sidebar
+import { upcomingEvents, previousEvents } from "./events";
+
 // @material-ui/core
 import Divider from "@material-ui/core/Divider";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
@@ -17,10 +20,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Typography from "@material-ui/core/Typography";
 
 // @material-ui/icons
-import AcUnitIcon from "@material-ui/icons/AcUnit";
-import BeachAccessIcon from "@material-ui/icons/BeachAccess";
 import WelcomeIcon from "@material-ui/icons/Dashboard";
-import WhatshotIcon from "@material-ui/icons/Whatshot";
 
 // styles
 import { makeStyles } from "@material-ui/core/styles";
@@ -28,26 +28,6 @@ import styles from "./styles";
 
 const BasicItems = () => {
     const classes = makeStyles(styles)();
-
-    const upcomingEvents = [
-        {
-            Icon: WhatshotIcon,
-            label: "HEAT 2020",
-            path: "/heat-2020",
-        },
-    ];
-    const previousEvents = [
-        {
-            Icon: AcUnitIcon,
-            label: "ERUPT 2020",
-            path: "/erupt-2020",
-        },
-        {
-            Icon: BeachAccessIcon,
-            label: "SWIFT 2020",
-            path: "/swift-2020",
-        },
-    ];
 
     return (
         <>
@@ -66,47 +46,64 @@ const BasicItems = () => {
                 <ListItemText primary={"Welcome"} />
             </ListItem>
 
-            <Divider className={classes.dividerGray} />
-
-            {/* Upcoming Events */}
-            <ExpansionPanel
-                expanded
-                elevation={0}
-                classes={{ expanded: classes.expansionPanel }}
-            >
-                <ExpansionPanelSummary>
-                    <Typography
-                        style={{ textDecoration: "none", color: "inherit" }}
+            {upcomingEvents?.length ? (
+                <>
+                    <Divider className={classes.dividerGray} />
+                    {/* Upcoming Events */}
+                    <ExpansionPanel
+                        expanded
+                        elevation={0}
+                        classes={{ expanded: classes.expansionPanel }}
                     >
-                        {"Upcoming Events"}
-                    </Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
-                    <List dense disablePadding>
-                        {upcomingEvents.map(({ Icon, label, path }, index) => (
-                            <React.Fragment key={path}>
-                                {index ? null : (
-                                    <Divider className={classes.dividerGray} />
+                        <ExpansionPanelSummary>
+                            <Typography
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                }}
+                            >
+                                {"Upcoming Events"}
+                            </Typography>
+                        </ExpansionPanelSummary>
+                        <ExpansionPanelDetails>
+                            <List dense disablePadding>
+                                {upcomingEvents.map(
+                                    ({ Icon, label, path }, index) => (
+                                        <React.Fragment key={path}>
+                                            {index ? null : (
+                                                <Divider
+                                                    className={
+                                                        classes.dividerGray
+                                                    }
+                                                />
+                                            )}
+                                            <ListItem
+                                                button
+                                                activeClassName={classes.active}
+                                                component={NavLink}
+                                                to={path}
+                                            >
+                                                <ListItemIcon
+                                                    classes={{
+                                                        root:
+                                                            classes.menuItemIcon,
+                                                    }}
+                                                >
+                                                    <Icon />
+                                                </ListItemIcon>
+                                                <ListItemText primary={label} />
+                                            </ListItem>
+                                            <Divider
+                                                className={classes.dividerGray}
+                                            />
+                                        </React.Fragment>
+                                    )
                                 )}
-                                <ListItem
-                                    button
-                                    activeClassName={classes.active}
-                                    component={NavLink}
-                                    to={path}
-                                >
-                                    <ListItemIcon
-                                        classes={{ root: classes.menuItemIcon }}
-                                    >
-                                        <Icon />
-                                    </ListItemIcon>
-                                    <ListItemText primary={label} />
-                                </ListItem>
-                                <Divider className={classes.dividerGray} />
-                            </React.Fragment>
-                        ))}
-                    </List>
-                </ExpansionPanelDetails>
-            </ExpansionPanel>
+                            </List>
+                        </ExpansionPanelDetails>
+                    </ExpansionPanel>
+                </>
+            ) : null}
 
             <Divider className={classes.dividerGray} />
 
